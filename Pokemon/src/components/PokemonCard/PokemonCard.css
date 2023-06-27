@@ -1,3 +1,14 @@
-#pokemon card{
-    
+input{
+    background-color:transparent;
+}
+
+button{
+    background-color: transparent !important;
+    color: black bold;
+}
+
+.card{
+    background-color: transparent !important;
+    color: black bold;
+    box-shadow: black 40px;
 }

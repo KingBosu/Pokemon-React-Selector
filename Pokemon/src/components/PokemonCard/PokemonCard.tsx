@@ -12,6 +12,7 @@ interface Pokemon {
 const PokemonCard = () => {
   const [pokemon, setPokemon] = useState<Pokemon | null>(null);
   const [pokemonName, setPokemonName] = useState<string>("");
+  
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
